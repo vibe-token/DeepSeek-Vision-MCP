@@ -4,7 +4,7 @@ A DeepSeek vision MCP server built with [FastMCP](https://gofastmcp.com), implem
 the three image-input interfaces from the official
 [vision guide](https://api-docs.deepseek.com/guides/vision) for MCP clients such as opencode.
 
-- Model: `deepseek-v4-flash-vision-exp`
+- Model: `deepseek-flash`
 - API: OpenAI-compatible format, `base_url = https://api.deepseek.com`
 
 > 中文文档请参见 [README.zh.md](README.zh.md)。

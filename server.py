@@ -5,7 +5,7 @@ from pathlib import Path
 from fastmcp import FastMCP
 from openai import OpenAI
 
-MODEL = "deepseek-v4-flash-vision-exp"
+MODEL = "deepseek-flash"
 BASE_URL = "https://api.deepseek.com"
 ALLOWED_SUFFIXES = {
     ".jpg": "image/jpeg",
@@ -20,7 +20,7 @@ DETAIL_LEVELS = {"low", "high", "original", "auto"}
 
 mcp = FastMCP(
     "DeepSeek Vision",
-    instructions="Wraps the DeepSeek vision API (deepseek-v4-flash-vision-exp). "
+    instructions="Wraps the DeepSeek vision API (deepseek-flash). "
     "Three ways to pass images: Base64 inline for local files, external http(s) URL, "
     "or Files API file_id reference; for large or reused images, upload first with upload_image.",
 )

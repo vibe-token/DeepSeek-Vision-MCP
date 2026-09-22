@@ -4,7 +4,7 @@
 [图像理解指南](https://api-docs.deepseek.com/zh-cn/guides/vision) 实现三种传图接口，
 供 opencode 等 MCP 客户端调用。
 
-- 模型：`deepseek-v4-flash-vision-exp`
+- 模型：`deepseek-flash`
 - API：OpenAI 兼容格式，`base_url = https://api.deepseek.com`
 
 ## 接口一览
